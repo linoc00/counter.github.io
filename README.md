@@ -1,4 +1,6 @@
 # Counter by Pasquale Cerullo
-https://linoc00.github.io/counter.github.io/
-# immagine
-![ciao](https://user-images.githubusercontent.com/76970212/125488766-c4f1d0cf-afa6-48c0-9343-248053b230df.jpg)
+LIVE - https://linoc00.github.io/counter.github.io/
+# Utilizzo
+![img](img/2021-07-14.png) <br>
+Il counter come da immagine è facile da utilizzare poichè molto intuitivo, permette di addizionare un'unità o due inoltre, ha anche la funzionalità di reset che permette di
+portare a zero il counter.

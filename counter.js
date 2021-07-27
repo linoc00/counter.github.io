@@ -8,20 +8,20 @@ increase.addEventListener("click", ()=>{
     counter +=1;
     document.getElementById("number").innerHTML=counter;
 });
-decrease.onclick=function(){
+decrease.addEventListener("click", ()=>{
     counter -=1;
     document.getElementById("number").innerHTML=counter;
-}
-increaset.onclick=function(){
+});
+increaset.addEventListener("click", ()=>{
     counter +=2;
     document.getElementById("number").innerHTML=counter;
-}
-decreaset.onclick=function(){
+});
+decreaset.addEventListener("click", ()=>{
     counter -=2;
     document.getElementById("number").innerHTML=counter;
-}
-reset.onclick=function(){
-    counter=0;
+});
+reset.addEventListener("click", ()=>{
+    counter =0;
     document.getElementById("number").innerHTML=counter;
-}
+});
 

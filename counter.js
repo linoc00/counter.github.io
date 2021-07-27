@@ -4,10 +4,10 @@ let decrease= document.querySelector(".decrease");
 let increaset= document.querySelector(".increaset");
 let decreaset= document.querySelector(".decreaset");
 let reset= document.querySelector(".reset");
-increase.onclick=function(){
+increase.addEventListener("click", ()=>{
     counter +=1;
     document.getElementById("number").innerHTML=counter;
-}
+});
 decrease.onclick=function(){
     counter -=1;
     document.getElementById("number").innerHTML=counter;
